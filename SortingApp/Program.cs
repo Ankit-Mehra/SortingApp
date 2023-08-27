@@ -11,14 +11,17 @@ string pathToWrite = Path.Combine(Directory.GetCurrentDirectory(), "sorted-names
 string pathToRead = Path.Combine(Directory.GetCurrentDirectory(), pathArgument);
 
 //read the file into a list
-var reader = new FileReader(new FileSystem());
-List<string> lines = reader.ReadFile(pathToRead);
+var util = new FileUtilites(new FileSystem());
+List<string> lines = util.ReadFile(pathToRead);
 
 //sort the list
 Sorter.SortNamesByLastNameThenGivenName(lines);
 
 //write the sorted list to a file
-File.WriteAllLines(pathToWrite, lines);
+util.WriteFile(pathToWrite, lines);
+
+
+
 
 
 
