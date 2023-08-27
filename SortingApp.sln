@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingApp", "SortingApp\SortingApp.csproj", "{25AD4271-121F-4603-9956-4DFEC127DFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortingApp", "SortingApp\SortingApp.csproj", "{25AD4271-121F-4603-9956-4DFEC127DFFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{6137C703-7C61-49A4-9EAE-70B315DD9910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{25AD4271-121F-4603-9956-4DFEC127DFFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25AD4271-121F-4603-9956-4DFEC127DFFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25AD4271-121F-4603-9956-4DFEC127DFFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6137C703-7C61-49A4-9EAE-70B315DD9910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6137C703-7C61-49A4-9EAE-70B315DD9910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6137C703-7C61-49A4-9EAE-70B315DD9910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6137C703-7C61-49A4-9EAE-70B315DD9910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
