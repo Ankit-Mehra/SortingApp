@@ -20,6 +20,12 @@ Sorter.SortNamesByLastNameThenGivenName(lines);
 //write the sorted list to a file
 util.WriteFile(pathToWrite, lines);
 
+//print the sorted list to the consoles
+foreach (string line in lines)
+{
+    Console.WriteLine(line);
+}
+Console.ReadLine();
 
 
 

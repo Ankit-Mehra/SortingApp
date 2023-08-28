@@ -5762,6 +5762,7 @@
       "outputPath": "C:\\SoftwareEng\\.NET\\Assessment\\SortingApp\\UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\SoftwareEng\\.NET\\Assessment\\SortingApp\\NuGet.Config",
         "C:\\Users\\deepi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
