@@ -5,8 +5,8 @@ solution: SortingApp.sln
 install:
   - sudo apt-get install nuget
   - nuget restore SortingApp.sln -ConfigFile nuget.config
-  - nuget install xunit.runner.console -Version 2.5.0 -OutputDirectory testrunner
+  - nuget install xunit.runner.console -OutputDirectory testrunner -Source https://api.nuget.org/v3/index.json
 script:
   - dotnet restore
   - msbuild /p:Configuration=Release SortingApp.sln
-  - mono ./testrunner/xunit.runners.console.2.5.0/tools/xunit.console.clr4.exe ./UnitTests.Tests/bin/Release/UnitTests.Tests.dll
+  - mono ./testrunner/xunit.runner.console/tools/net472/xunit.console.exe ./UnitTests.Tests/bin/Release/UnitTests.Tests.dll
